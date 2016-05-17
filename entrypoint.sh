@@ -1,5 +1,5 @@
 #!/bin/bash
-git https://github.com/showry/ionic-app.git /application
+git clone https://github.com/showry/ionic-app.git /application
 cd /application
 unzip sensor.zip
 cd /application/sensor
