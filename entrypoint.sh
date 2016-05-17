@@ -2,5 +2,5 @@
 git clone https://github.com/showry/ionic-app.git /application
 cd /application
 unzip sensor.zip
-cd /application/sensor
+cd /application/simulator
 ionic serve -a
