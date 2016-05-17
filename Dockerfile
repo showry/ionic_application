@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Samhitha
+MAINTAINER Joseph
 RUN apt-get update && apt-get install -y wget
 RUN cd /opt && wget http://nodejs.org/dist/v0.10.32/node-v0.10.32-linux-x64.tar.gz && \
      tar zxf node-v0.10.32-linux-x64.tar.gz && \
